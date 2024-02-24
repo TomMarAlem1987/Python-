@@ -1,4 +1,8 @@
+'''
 #Intro to Python, Adventure Game:
+'''
+I intend to write a game that is a mix between Zelda and American Gladiators in an adventure format.
+'''
 main_character= [
     {'name':'Iron Hammer', 'power':'Smash Attack','status':'First Class'},
     {'name':'White Lotus', 'power':'Slish Slash Attack', 'status':'Second Class'},
@@ -20,3 +24,4 @@ print("\n")
 
 #Getting player input as to which character they want to play:
 player_choice= print(input("Please select a player: "))
+'''
