@@ -11,7 +11,7 @@ Calculate the total of this list of numbers: 33, 87, 58, 46, 31, 29, 21, 40, 86,
 
 # Temperature converter:
 temps=[32, -17, 40, 5, -7, 20, -1, 16, -16, 4]
-converted = list(map(lambda x: ((x - 32) * 5/9), temps))
+converted = list(map(lambda x: (((9/5)*x)+32), temps))
 print(converted)
 
 # Filtering names:
